@@ -1,0 +1,136 @@
+/* Body y sus Propiedades */
+body {
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+}
+
+body header {
+  background-color: #FFA500;
+}
+
+body header ul {
+  list-style: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+
+body header ul li {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Clases */
+h1 {
+  color: #0000FF;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h2 {
+  color: #4169E1;
+  text-align: center;
+}
+
+h3 {
+  color: #6A5ACD;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h4 {
+  color: #FFA500;
+}
+
+p {
+  color: cornsilk;
+}
+
+.servicio {
+  background-color: #FFA500;
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  padding: 40px;
+}
+
+.servicio__precio {
+  font-size: 20px;
+}
+
+.servicio__imagen {
+  width: 300px;
+  height: 300px;
+}
+
+table {
+  border: 3px;
+  font-size: 15px;
+}
+
+tr, td {
+  border: 2px solid;
+}
+
+.titulo {
+  color: #0000FF;
+  text-align: center;
+}
+
+.menutrabajos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid black;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding-left: 350px;
+}
+
+.menutrabajos div {
+  background-color: orange;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 2px solid black;
+  justify-items: center;
+}
+
+.imagen {
+  width: 100%;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.soporte {
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+/*Footer*/
+footer {
+  background-color: #6A5ACD;
+  height: 50px;
+  clear: both;
+}
+/*# sourceMappingURL=styles.css.map */
