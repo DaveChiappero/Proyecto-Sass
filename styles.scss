@@ -4,7 +4,6 @@
 
 /* Body y sus Propiedades */
 
-
 body {
     background-color: black;
     font-family: 'Roboto Mono', monospace;
@@ -111,31 +110,49 @@ tr , td {border: 2px solid}
         padding: 10px;
         flex-direction: column;
         border: 2px solid black;
-        width: 50%;
-        justify-content: center;
+        width: 20%;
         margin: auto;
-        padding-left: 350px;
+        
+       
     
     
     } 
         
  .menutrabajos div {
         background-color: orange;
-        width: 500px;
+        width: 600px;
         margin: 20px;
         text-align: center;
-        line-height: 75px;
+        line-height: 60px;
         font-size: 2px solid black;
-        justify-items: center;
+        
         
 
 
 
     } 
         
+
+ 
+@media (min-width: 700px){
+    .menutrabajos{
+
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 20%;
+        margin: auto;
         
-        
-        
+
+    }
+
+}
+
+
+    
+
+.telefono {padding-left: 650px;}       
 
 
 .imagen {
@@ -154,10 +171,21 @@ tr , td {border: 2px solid}
     margin: auto;
     
 }
+
+
+
+
+
+
+
+
+
             /*Footer*/
 
 
 footer {background-color: #6A5ACD;height: 50px; clear: both;}
+
+
 
 
 
